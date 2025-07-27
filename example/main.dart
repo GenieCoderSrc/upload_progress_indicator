@@ -78,6 +78,7 @@ class _UploadIndicatorExampleState extends State<UploadIndicatorExample> {
               imageFieldCubit: _imageFieldCubit,
               variant: UploadIndicatorVariant.linear,
               size: 80,
+              radius: 20,
               color: Colors.green,
             ),
 

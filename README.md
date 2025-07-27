@@ -11,14 +11,14 @@ This component is a flexible and customizable widget for displaying file upload 
     * `overlay`
     * `percentageText`
 * Supports custom child builder via `childBuilder`
-* Configurable size and color
+* Configurable size, radius, color, etc
 * Responsive to `ImageFieldCubit` state changes
 
 
 ## 🚀 Usage
 
 ```dart
-FileUploadProgressIndicator(
+UploadProgressIndicator(
   imageFieldCubit: yourCubitInstance,
   variant: UploadIndicatorVariant.circular,
   size: 48,
@@ -29,7 +29,7 @@ FileUploadProgressIndicator(
 Or with a custom child:
 
 ```dart
-FileUploadProgressIndicator(
+UploadProgressIndicator(
   imageFieldCubit: yourCubitInstance,
   childBuilder: (progress) => Text('${(progress * 100).round()}%'),
 );
@@ -37,13 +37,14 @@ FileUploadProgressIndicator(
 
 ## 🔧 Constructor Parameters
 
-| Parameter         | Type                     | Description                                                   |
-| ----------------- | ------------------------ | ------------------------------------------------------------- |
-| `imageFieldCubit` | `ImageFieldCubit`        | Required. Controls the upload progress state.                 |
-| `variant`         | `UploadIndicatorVariant` | Optional. Defaults to `linear`.                               |
-| `size`            | `double`                 | Optional. Default is `40`. Used for size in circular/overlay. |
-| `color`           | `Color?`                 | Optional. Custom color for indicator.                         |
-| `childBuilder`    | `ProgressChildBuilder?`  | Optional. Custom widget based on progress value.              |
+| Parameter         | Type                     | Description                                                           |
+| ----------------- | ------------------------ |-----------------------------------------------------------------------|
+| `imageFieldCubit` | `ImageFieldCubit`        | Required. Controls the upload progress state.                         |
+| `variant`         | `UploadIndicatorVariant` | Optional. Defaults to `linear`.                                       |
+| `size`            | `double`                 | Optional. Default is `40`. Used for size in circular/overlay.         |
+| `color`           | `Color?`                 | Optional. Custom color for indicator.                                 |
+| `radius`          | `double?`                | Optional. Default is `20`. Used for circular borderRadius in linear.  |
+| `childBuilder`    | `ProgressChildBuilder?`  | Optional. Custom widget based on progress value.                      |
 
 ## 📁 Variant Details
 
@@ -79,7 +80,7 @@ To add a new variant:
 
 1. Add enum value to `UploadIndicatorVariant`
 2. Create a new widget implementing the new style
-3. Extend the switch-case in `FileUploadProgressIndicator`
+3. Extend the switch-case in `UploadProgressIndicator`
 
 ---
 
