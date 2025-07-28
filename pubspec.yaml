@@ -16,8 +16,11 @@ dependencies:
     sdk: flutter
 
   flutter_bloc: ^9.1.1
-  reusable_editor: ^1.1.7
   cross_file: ^0.3.4+2
+
+
+  reusable_editor:
+    path: ../reusable_editor
 
 dev_dependencies:
   flutter_test:
