@@ -1,6 +1,1 @@
-enum UploadIndicatorVariant {
-  linear,
-  circular,
-  overlay,
-  percentageText,
-}
+enum UploadIndicatorVariant { linear, circular, overlay, percentageText }

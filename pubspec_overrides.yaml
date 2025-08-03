@@ -1,0 +1,8 @@
+# melos_managed_dependency_overrides: get_it_di_global_variable,i_validator,reusable_editor
+dependency_overrides:
+  get_it_di_global_variable:
+    path: ../get_it_di_global_variable
+  i_validator:
+    path: ../i_validator
+  reusable_editor:
+    path: ../reusable_editor

@@ -19,7 +19,8 @@ class OverlayUploadProgressIndicator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    if (pickedFile == null || pickedFile?.path == null) return const SizedBox.shrink();
+    if (pickedFile == null || pickedFile?.path == null)
+      return const SizedBox.shrink();
 
     return Stack(
       alignment: Alignment.center,
