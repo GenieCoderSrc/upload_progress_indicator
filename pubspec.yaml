@@ -15,17 +15,17 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_bloc: ^9.1.1
-  cross_file: ^0.3.4+2
-
 
   reusable_editor:
     path: ../reusable_editor
 
+  flutter_bloc: ^9.1.1
+  cross_file: ^0.3.4+2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
