@@ -17,6 +17,7 @@ dependencies:
 
 
   reusable_editor: ^1.1.9
+#  reusable_editor: ^1.2.0
 
   
   flutter_bloc: ^9.1.1
