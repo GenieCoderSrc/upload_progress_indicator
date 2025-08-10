@@ -1,9 +1,18 @@
-
 # Changelog
 
 All notable changes to the **File Upload Progress Indicator** component will be documented in this file.
 
+## 0.0.2
+
+### Aug 9, 2025
+
+### ✨ Updated
+
+* Updated dependency with reusable_editor: ^1.2.1
+
+
 ## 0.0.1
+
 ### July 27, 2025
 
 ### ✨ Added
