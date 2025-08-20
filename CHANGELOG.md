@@ -2,6 +2,16 @@
 
 All notable changes to the **File Upload Progress Indicator** component will be documented in this file.
 
+## 0.0.3
+
+### Aug 22, 2025
+
+### ✨ Updated
+
+- Updated Dart sdk to 3.9.0
+- Removed `flutter_lints` Dependency
+- Updated `reusable_editor` to 1.2.2
+
 ## 0.0.2
 
 ### Aug 9, 2025
