@@ -2,7 +2,13 @@
 
 All notable changes to the **File Upload Progress Indicator** component will be documented in this file.
 
+## 0.0.5
 
+### Sep 8, 2025
+
+### ✨ Updated
+
+- Updated `reusable_editor` to 1.2.4
 
 ## 0.0.4
 
@@ -29,7 +35,6 @@ All notable changes to the **File Upload Progress Indicator** component will be 
 ### ✨ Updated
 
 * Updated dependency with reusable_editor: ^1.2.1
-
 
 ## 0.0.1
 
