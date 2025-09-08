@@ -1,7 +1,7 @@
 name: upload_progress_indicator
 description: "A customizable file upload progress indicator widget for Flutter, supporting multiple variants (linear, circular, overlay, and percentage text) and integration with flutter_bloc state management."
 
-version: 0.0.5
+version: 0.0.6
 
 homepage: https://geniecodersrc.github.io/upload_progress_indicator/
 repository: https://github.com/GenieCoderSrc/upload_progress_indicator
@@ -16,7 +16,7 @@ dependencies:
     sdk: flutter
 
 
-  reusable_editor: ^1.2.4
+  reusable_editor: ^1.2.5
 
   
   flutter_bloc: ^9.1.1
