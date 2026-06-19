@@ -2,6 +2,14 @@
 
 All notable changes to the **File Upload Progress Indicator** component will be documented in this file.
 
+## 0.1.2
+
+### Jun 20, 2026
+
+### ✨ Updated
+
+- Updated `reusable_editor` to 1.3.3
+
 ## 0.1.1
 
 ### Mar 13, 2026
@@ -9,7 +17,6 @@ All notable changes to the **File Upload Progress Indicator** component will be 
 ### ✨ Updated
 
 - Updated `reusable_editor` to 1.3.1
-
 
 ## 0.1.0
 
@@ -19,7 +26,6 @@ All notable changes to the **File Upload Progress Indicator** component will be 
 
 - Updated `reusable_editor` to 1.3.0
 - Updated `cross_file` to 0.3.5+2
-
 
 ## 0.0.9
 
