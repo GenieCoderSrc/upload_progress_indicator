@@ -9,6 +9,14 @@ file.
 
 ### ✨ Updated
 
+- Updated `reusable_editor` to 1.3.5
+
+## 0.1.3
+
+### Jun 22, 2026
+
+### ✨ Updated
+
 - Updated `reusable_editor` to 1.3.4
 
 ## 0.1.2
