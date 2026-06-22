@@ -1,6 +1,15 @@
 # Changelog
 
-All notable changes to the **File Upload Progress Indicator** component will be documented in this file.
+All notable changes to the **File Upload Progress Indicator** component will be documented in this
+file.
+
+## 0.1.3
+
+### Jun 22, 2026
+
+### ✨ Updated
+
+- Updated `reusable_editor` to 1.3.4
 
 ## 0.1.2
 
@@ -118,4 +127,5 @@ All notable changes to the **File Upload Progress Indicator** component will be 
 
 ---
 
-Future updates will include additional indicator types, animation enhancements, and configuration extensions.
+Future updates will include additional indicator types, animation enhancements, and configuration
+extensions.
