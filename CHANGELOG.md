@@ -3,7 +3,7 @@
 All notable changes to the **File Upload Progress Indicator** component will be documented in this
 file.
 
-## 0.1.3
+## 0.1.4
 
 ### Jun 22, 2026
 
