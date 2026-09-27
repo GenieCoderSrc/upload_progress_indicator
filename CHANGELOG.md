@@ -3,6 +3,14 @@
 All notable changes to the **File Upload Progress Indicator** component will be documented in this
 file.
 
+## 0.1.6
+
+### Sep 27, 2026
+
+### 🐛 Fixed
+
+- Fixed `XFile` path access in `OverlayUploadProgressIndicator` to support newer `cross_file` package changes.
+
 ## 0.1.5
 
 ### Jun 23, 2026
