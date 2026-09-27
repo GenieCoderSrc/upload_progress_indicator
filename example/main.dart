@@ -44,7 +44,7 @@ class _UploadIndicatorExampleState extends State<UploadIndicatorExample> {
   }
 
   Future<void> _pickAndUploadImage() async {
-    final File file = File('example/image.png'); // Simulated local file
+    final File file = File('example/image.png');
     final XFile pickedFile = XFile.fileSystem(path: file.path);
 
     _imageFieldCubit.selectImage(pickedFile);
