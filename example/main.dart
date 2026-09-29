@@ -45,7 +45,7 @@ class _UploadIndicatorExampleState extends State<UploadIndicatorExample> {
 
   Future<void> _pickAndUploadImage() async {
     final File file = File('example/image.png');
-    final XFile pickedFile = XFile.fileSystem(path: file.path);
+    final XFile pickedFile = XFile(file.path);
 
     _imageFieldCubit.selectImage(pickedFile);
     _startFakeUpload(onProgress: _imageFieldCubit.updateUploadProgress);
@@ -81,7 +81,6 @@ class _UploadIndicatorExampleState extends State<UploadIndicatorExample> {
               radius: 20,
               color: Colors.green,
             ),
-
             ElevatedButton(
               onPressed: _pickAndUploadImage,
               child: const Text('Pick and Upload Image'),

@@ -69,6 +69,8 @@ UploadProgressIndicator(
 Ensure you have the following packages:
 
 ```yaml
+resolution: workspace
+
 dependencies:
   flutter:
   flutter_bloc:
